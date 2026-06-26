@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539547164918",
+    "project_id": "ar-proj-itu",
+    "storage_bucket": "ar-proj-itu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539547164918:android:e57b89ac733a58a3c20cd7",
+        "android_client_info": {
+          "package_name": "com.example.final_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZrA73QdRp0lnq2OmsjZB4BhhsIxp1S1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
