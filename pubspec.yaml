@@ -1,0 +1,44 @@
+name: ar_furniture
+description: AR furniture placement and shopping app built with Flutter
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  arcore_flutter_plugin: ^0.1.0
+  vector_math: ^2.2.0
+  permission_handler: ^12.0.1
+  flutter_cache_manager: ^3.4.1
+  http: ^1.6.0
+  path_provider: ^2.1.5
+
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0 
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/models/
+    - assets/images/
+    - icon.jpg
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "icon.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "icon.jpg"
