@@ -1,4 +1,4 @@
-# AR Furniture
+# Home Arranger
 
 An augmented-reality furniture shopping app built with Flutter. Browse a catalogue of
 100+ 3D furniture models, preview them at real-world scale in your room using ARCore,
